@@ -1,0 +1,24 @@
+{
+  "name": "browserlab",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/helloanoop/browserlab.git"
+  },
+  "keywords": [],
+  "author": "Anoop M D",
+  "workspaces": [
+    "packages/browserlab",
+    "packages/demo"
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/helloanoop/browserlab/issues"
+  },
+  "homepage": "https://github.com/helloanoop/browserlab#readme"
+}

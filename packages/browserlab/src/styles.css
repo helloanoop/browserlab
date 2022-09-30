@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+body {
+  font-size: 1em;
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+button {
+  font-size: 0.875rem;
+}
+
+nav {
+  position: relative;
+  padding: 2rem .6rem;
+  box-shadow: none;
+  border-bottom: solid 1px #dedede;
+  margin-bottom: 1rem;
+}
+
+nav .menu>* {
+  margin-right: 0;
+}
+
+/* I didn't like default button color of picnic css */
+.dropimage, button, .button, [type=submit], .label, [data-tooltip]:after {
+  background: #d35400;
+}
+.dropimage:hover, button:hover, .button:hover, [type=submit]:hover, .dropimage:focus, button:focus, .button:focus, [type=submit]:focus {
+  box-shadow: inset 0 0 0 99em rgb(255 255 255 / 10%);
+  border: 0;
+}
+
+/* App Styles */
+.test-grid-header {
+  background-color: #c86c2f;
+  display: flex;
+  color: white;
+  padding: 0.3rem 0.6rem;
+  margin-inline: 0.6rem;
+  font-size: 0.875rem;
+}
+
+.test-grid-header > .test-name {
+  display: flex;
+  flex-grow: 1;
+}
+
+.test-grid-body {
+  margin-inline: 0.6rem;
+  font-size: 0.875rem;
+}
+
+.test-grid-body .test-row {
+  display: flex;
+  padding: 0.4rem 0.5rem;
+}
+
+.test-grid-body .test-row > .test-name {
+  display: flex;
+  flex-grow: 1;
+}
+
+.test-grid-body .test-row > .test-action {
+  padding-inline: 0.3rem;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.test-grid-body .test-row > .test-action:hover {
+  text-decoration: underline;
+}
+
+.test-grid-body > div:nth-child(even) {
+  background: rgba(17,17,17,.05);
+}
